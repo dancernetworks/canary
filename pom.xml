@@ -14,45 +14,51 @@
   <version>0.9.0</version>
   <dependencies>
     <dependency>
-      <groupId>com.adobe.blazeds</groupId>
-      <artifactId>blazeds-core</artifactId>
-      <version>4.6.0.23207</version>
+      <groupId>au.com.bytecode</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>2.4</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.adobe.blazeds</groupId>
-      <artifactId>blazeds-proxy</artifactId>
-      <version>4.6.0.23207</version>
+      <groupId>com.esotericsoftware</groupId>
+      <artifactId>kryo</artifactId>
+      <version>3.0.3</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.adobe.blazeds</groupId>
-      <artifactId>blazeds-common</artifactId>
-      <version>4.6.0.23207</version>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-yaml</artifactId>
+      <version>2.7.4</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.adobe.blazeds</groupId>
-      <artifactId>blazeds-remoting</artifactId>
-      <version>4.6.0.23207</version>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-jaxb-annotations</artifactId>
+      <version>2.7.4</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.mortbay.jetty</groupId>
-      <artifactId>jetty-blazeds</artifactId>
-      <version>8.0.4.v20111024</version>
+      <groupId>com.github.briandilley.jsonrpc4j</groupId>
+      <artifactId>jsonrpc4j</artifactId>
+      <version>1.4.4</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.12</version>
+      <groupId>com.github.dblock</groupId>
+      <artifactId>oshi-core</artifactId>
+      <version>3.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.5.5</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>com.zaxxer</groupId>
-      <artifactId>sansorm</artifactId>
-      <version>2.0</version>
+      <artifactId>HikariCP</artifactId>
+      <version>2.4.6</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -62,15 +68,57 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.javassist</groupId>
-      <artifactId>javassist</artifactId>
-      <version>3.19.0-GA</version>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>sansorm</artifactId>
+      <version>2.2</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.fusesource</groupId>
-      <artifactId>sigar</artifactId>
-      <version>1.6.4</version>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.9</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>commons-pool</groupId>
+      <artifactId>commons-pool</artifactId>
+      <version>1.6</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>de.mud</groupId>
+      <artifactId>jta</artifactId>
+      <version>2.6</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>de.ruedigermoeller</groupId>
+      <artifactId>fst</artifactId>
+      <version>2.45</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>dnsjava</groupId>
+      <artifactId>dnsjava</artifactId>
+      <version>2.1.7</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.github.lukehutch</groupId>
+      <artifactId>fast-classpath-scanner</artifactId>
+      <version>1.9.17</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.0.34.Final</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>it.sauronsoftware.cron4j</groupId>
+      <artifactId>cron4j</artifactId>
+      <version>2.2.5</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -82,7 +130,7 @@
     <dependency>
       <groupId>javax.mail</groupId>
       <artifactId>javax.mail-api</artifactId>
-      <version>1.5.2</version>
+      <version>1.5.5</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -92,87 +140,15 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>javax.transaction</groupId>
-      <artifactId>jta</artifactId>
-      <version>1.1</version>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.persistence</groupId>
-      <artifactId>javax.persistence</artifactId>
-      <version>2.1.0</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.cometd.java</groupId>
-      <artifactId>cometd-java-websocket-jetty-server</artifactId>
-      <version>3.0.7</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>com.fasterxml.jackson.module</groupId>
-      <artifactId>jackson-module-jaxb-annotations</artifactId>
-      <version>2.5.2</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.servicemix.bundles</groupId>
-      <artifactId>org.apache.servicemix.bundles.commons-csv</artifactId>
-      <version>1.0-r706900_3</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>com.lbayer</groupId>
-      <artifactId>appup</artifactId>
-      <version>0.1.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>dnsjava</groupId>
-      <artifactId>dnsjava</artifactId>
-      <version>2.1.7</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.tinyradius</groupId>
-      <artifactId>tinyradius</artifactId>
+      <groupId>javax.websocket</groupId>
+      <artifactId>javax.websocket-api</artifactId>
       <version>1.0</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>uk.nominet</groupId>
-      <artifactId>dnsjnio</artifactId>
-      <version>1.0.3</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>9.4-1206-jdbc42</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.dhcp4java</groupId>
-      <artifactId>dhcp4java</artifactId>
-      <version>1.0</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.0.33.Final</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.syslog4j</groupId>
-      <artifactId>syslog4j</artifactId>
-      <version>0.9.30</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.jvnet.hudson</groupId>
-      <artifactId>org.suigeneris.jrcs.diff</artifactId>
-      <version>0.4.2</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -182,9 +158,15 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.github.briandilley.jsonrpc4j</groupId>
-      <artifactId>jsonrpc4j</artifactId>
-      <version>1.2.0</version>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -194,69 +176,105 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-core</artifactId>
+      <groupId>netld-legacy</groupId>
+      <artifactId>ftpserver</artifactId>
+      <version>1.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>opensymphony</groupId>
+      <artifactId>quartz-all</artifactId>
+      <version>1.6.3</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>1.9</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+      <version>3.4.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <version>10.12.1.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbyclient</artifactId>
+      <version>10.12.1.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbynet</artifactId>
+      <version>10.12.1.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbytools</artifactId>
+      <version>10.12.1.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flex.blazeds</groupId>
+      <artifactId>flex-messaging-common</artifactId>
       <version>4.7.2</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-queryparser</artifactId>
+      <groupId>org.apache.flex.blazeds</groupId>
+      <artifactId>flex-messaging-core</artifactId>
       <version>4.7.2</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-highlighter</artifactId>
+      <groupId>org.apache.flex.blazeds</groupId>
+      <artifactId>flex-messaging-proxy</artifactId>
+      <version>4.7.2</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flex.blazeds</groupId>
+      <artifactId>flex-messaging-remoting</artifactId>
       <version>4.7.2</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.apache.lucene</groupId>
       <artifactId>lucene-analyzers-common</artifactId>
-      <version>4.7.2</version>
+      <version>5.5.1</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-core</artifactId>
+      <version>5.5.1</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>xerces</groupId>
-      <artifactId>xercesImpl</artifactId>
-      <version>2.11.0</version>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-highlighter</artifactId>
+      <version>5.5.1</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.4</version>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-queryparser</artifactId>
+      <version>5.5.1</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>commons-net</groupId>
-      <artifactId>commons-net</artifactId>
-      <version>3.3</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>commons-pool</groupId>
-      <artifactId>commons-pool</artifactId>
-      <version>1.6</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.9</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
-      <version>1.2</version>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.13</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -272,45 +290,15 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-math3</artifactId>
-      <version>3.4.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-compress</artifactId>
-      <version>1.9</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpmime</artifactId>
-      <version>4.4</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.4</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.3.2</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.sakaiproject</groupId>
-      <artifactId>sakai-rwiki-diff</artifactId>
-      <version>10.3</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
       <groupId>org.codehaus.woodstox</groupId>
       <artifactId>woodstox-core-asl</artifactId>
       <version>4.4.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.dhcp4java</groupId>
+      <artifactId>dhcp4java</artifactId>
+      <version>1.0</version>
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -320,99 +308,183 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derby</artifactId>
-      <version>10.11.1.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derbynet</artifactId>
-      <version>10.11.1.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derbytools</artifactId>
-      <version>10.11.1.1</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.derby</groupId>
-      <artifactId>derbyclient</artifactId>
-      <version>10.11.1.1</version>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-annotations</artifactId>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-annotations</artifactId>
-      <version>9.2.14.v20151106</version>
+      <artifactId>jetty-client</artifactId>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-continuation</artifactId>
-      <version>9.2.14.v20151106</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-servlets</artifactId>
-      <version>9.2.14.v20151106</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-servlet</artifactId>
-      <version>9.2.14.v20151106</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-rewrite</artifactId>
-      <version>9.2.14.v20151106</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-security</artifactId>
-      <version>9.2.14.v20151106</version>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-jaas</artifactId>
-      <version>9.2.14.v20151106</version>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
-      <artifactId>jetty-webapp</artifactId>
-      <version>9.2.14.v20151106</version>
+      <artifactId>jetty-rewrite</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-security</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-servlet</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-servlets</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-util</artifactId>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-util-ajax</artifactId>
-      <version>9.2.14.v20151106</version>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.jetty.websocket</groupId>
-      <artifactId>websocket-api</artifactId>
-      <version>9.2.14.v20151106</version>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.jetty.websocket</groupId>
-      <artifactId>websocket-server</artifactId>
-      <version>9.2.14.v20151106</version>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-webapp</artifactId>
+      <version>9.3.9.v20160517</version>
       <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>javax-websocket-server-impl</artifactId>
-      <version>9.2.14.v20151106</version>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-api</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-client</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty.websocket</groupId>
+      <artifactId>websocket-server</artifactId>
+      <version>9.3.9.v20160517</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.persistence</groupId>
+      <artifactId>javax.persistence</artifactId>
+      <version>2.1.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.graylog2</groupId>
+      <artifactId>syslog4j</artifactId>
+      <version>0.9.55</version>
+      <optional>true</optional>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jvnet.hudson</groupId>
+      <artifactId>org.suigeneris.jrcs.diff</artifactId>
+      <version>0.4.2</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.kaazing</groupId>
+      <artifactId>snmp4j</artifactId>
+      <version>1.11.3</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jetty-blazeds</artifactId>
+      <version>8.0.4.v20111024</version>
+      <optional>true</optional>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jetty-blazeds</artifactId>
+      <version>8.0.4.v20111024</version>
+      <optional>true</optional>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.4.1208</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.sakaiproject</groupId>
+      <artifactId>sakai-rwiki-diff</artifactId>
+      <version>10.3</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.tinyradius</groupId>
+      <artifactId>tinyradius</artifactId>
+      <version>1.0</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>uk.nominet</groupId>
+      <artifactId>dnsjnio</artifactId>
+      <version>1.0.3</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.11.0</version>
       <optional>true</optional>
     </dependency>
   </dependencies>

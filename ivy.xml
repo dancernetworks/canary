@@ -2,79 +2,82 @@
 <ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
    <info organisation="com.dancer" module="canary" status="integration" revision="0.9.0"/>
 
-   <dependency org="com.adobe.blazeds" name="blazeds-core"       rev="4.6.0.23207" />
-   <dependency org="com.adobe.blazeds" name="blazeds-proxy"      rev="4.6.0.23207" />
-   <dependency org="com.adobe.blazeds" name="blazeds-common"     rev="4.6.0.23207" />
-   <dependency org="com.adobe.blazeds" name="blazeds-remoting"   rev="4.6.0.23207" />
-   <dependency org="org.mortbay.jetty" name="jetty-blazeds"      rev="8.0.4.v20111024" />
-
-   <dependency org="org.slf4j"                        name="slf4j-log4j12"     rev="1.7.12" />
-   <dependency org="com.zaxxer"                       name="sansorm"           rev="2.0" />
-   <dependency org="com.zaxxer"                       name="nuprocess"         rev="0.9.7" />
-   <dependency org="org.javassist"                    name="javassist"         rev="3.19.0-GA" />
-   <dependency org="org.fusesource"                   name="sigar"             rev="1.6.4" />
-   <dependency org="javax.ejb"                        name="javax.ejb-api"     rev="3.2" />
-   <dependency org="javax.mail"                       name="javax.mail-api"    rev="1.5.2" />
-   <dependency org="javax.portlet"                    name="portlet-api"       rev="2.0" />
-   <dependency org="javax.transaction"                name="jta"               rev="1.1" />
-   <dependency org="org.eclipse.persistence"          name="javax.persistence" rev="2.1.0" />
-
-   <dependency org="org.cometd.java"               name="cometd-java-websocket-jetty-server"        rev="3.0.7" />
-   <dependency org="com.fasterxml.jackson.module"  name="jackson-module-jaxb-annotations"           rev="2.5.2" />
-   <dependency org="org.apache.servicemix.bundles" name="org.apache.servicemix.bundles.commons-csv" rev="1.0-r706900_3" />
-
-   <dependency org="com.lbayer"                name="appup"                    rev="0.1.1" />
-   <dependency org="dnsjava"                   name="dnsjava"                  rev="2.1.7" />
-   <dependency org="org.tinyradius"            name="tinyradius"               rev="1.0" />
-   <dependency org="uk.nominet"                name="dnsjnio"                  rev="1.0.3" />
-   <dependency org="org.postgresql"            name="postgresql"               rev="9.4-1206-jdbc42" />
-   <dependency org="org.dhcp4java"             name="dhcp4java"                rev="1.0" />
-   <dependency org="io.netty"                  name="netty-all"                rev="4.0.33.Final">
-   <dependency org="org.syslog4j"              name="syslog4j"                 rev="0.9.30" />
-   <dependency org="org.jvnet.hudson"          name="org.suigeneris.jrcs.diff" rev="0.4.2" />
-   <dependency org="jline"                     name="jline"                    rev="1.0"/>
-
-   <dependency org="com.github.briandilley.jsonrpc4j" name="jsonrpc4j"                       rev="1.2.0" />
-   <dependency org="net.sourceforge.dynamicreports"   name="dynamicreports-core"             rev="4.0.0"/>
-
-   <dependency org="org.apache.lucene" name="lucene-core"             rev="4.7.2" />
-   <dependency org="org.apache.lucene" name="lucene-queryparser"      rev="4.7.2" />
-   <dependency org="org.apache.lucene" name="lucene-highlighter"      rev="4.7.2" />
-   <dependency org="org.apache.lucene" name="lucene-analyzers-common" rev="4.7.2" />
-
-   <dependency org="log4j"                            name="log4j"             rev="1.2.17" />
-   <dependency org="xerces"                           name="xercesImpl"        rev="2.11.0" />
-   <dependency org="commons-io"                       name="commons-io"        rev="2.4" />
-   <dependency org="commons-net"                      name="commons-net"       rev="3.3" />
-   <dependency org="commons-pool"                     name="commons-pool"      rev="1.6" />
-   <dependency org="commons-codec"                    name="commons-codec"     rev="1.9" />
-   <dependency org="commons-logging"                  name="commons-logging"   rev="1.2" />
-   <dependency org="org.apache.poi"                   name="poi-ooxml"         rev="3.13" />
-   <dependency org="org.apache.sshd"                  name="sshd-core"         rev="0.11.0" />
-   <dependency org="org.apache.commons"               name="commons-math3"     rev="3.4.1" />
-   <dependency org="org.apache.commons"               name="commons-compress"  rev="1.9" />
-   <dependency org="org.apache.httpcomponents"        name="httpmime"          rev="4.4" />
-   <dependency org="org.apache.httpcomponents"        name="httpclient"        rev="4.4" />
-   <dependency org="org.apache.commons"               name="commons-lang3"     rev="3.3.2" />
-   <dependency org="org.sakaiproject"                 name="sakai-rwiki-diff"  rev="10.3" />
-   <dependency org="org.codehaus.woodstox"            name="woodstox-core-asl" rev="4.4.1" />
-   <dependency org="org.eclipse.birt.runtime"         name="com.ibm.icu"       rev="52.1.0.v201404241930" />
-
-   <dependency org="org.apache.derby" name="derby"       rev="10.11.1.1" />
-   <dependency org="org.apache.derby" name="derbynet"    rev="10.11.1.1" />
-   <dependency org="org.apache.derby" name="derbytools"  rev="10.11.1.1" />
-   <dependency org="org.apache.derby" name="derbyclient" rev="10.11.1.1" />
-
-   <dependency org="org.eclipse.jetty" name="jetty-annotations"  rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-servlets"     rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-servlet"      rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-rewrite"      rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-security"     rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-jaas"         rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-webapp"       rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty" name="jetty-util-ajax"    rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty.websocket" name="websocket-api"               rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty.websocket" name="websocket-server"            rev="9.2.14.v20151106" />
-   <dependency org="org.eclipse.jetty.websocket" name="javax-websocket-server-impl" rev="9.2.14.v20151106" />
+   <dependencies>
+      <dependency org="au.com.bytecode" name="opencsv" rev="2.4"/>
+      <dependency org="com.esotericsoftware" name="kryo" rev="3.0.3"/>
+      <dependency org="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml" rev="2.7.4"/>
+      <dependency org="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" rev="2.7.4"/>
+      <dependency org="com.github.briandilley.jsonrpc4j" name="jsonrpc4j" rev="1.4.4"/>
+      <dependency org="com.github.dblock" name="oshi-core" rev="3.0"/>
+      <dependency org="com.sun.mail" name="javax.mail" rev="1.5.5"/>
+      <dependency org="com.zaxxer" name="HikariCP" rev="2.4.6"/>
+      <dependency org="com.zaxxer" name="nuprocess" rev="0.9.7"/>
+      <dependency org="com.zaxxer" name="sansorm" rev="2.2"/>
+      <dependency org="commons-codec" name="commons-codec" rev="1.9"/>
+      <dependency org="commons-pool" name="commons-pool" rev="1.6"/>
+      <dependency org="de.mud" name="jta" rev="2.6"/>
+      <dependency org="de.ruedigermoeller" name="fst" rev="2.45"/>
+      <dependency org="dnsjava" name="dnsjava" rev="2.1.7"/>
+      <dependency org="io.github.lukehutch" name="fast-classpath-scanner" rev="1.9.17"/>
+      <dependency org="io.netty" name="netty-all" rev="4.0.34.Final"/>
+      <dependency org="it.sauronsoftware.cron4j" name="cron4j" rev="2.2.5"/>
+      <dependency org="javax.ejb" name="javax.ejb-api" rev="3.2"/>
+      <dependency org="javax.mail" name="javax.mail-api" rev="1.5.5"/>
+      <dependency org="javax.portlet" name="portlet-api" rev="2.0"/>
+      <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0"/>
+      <dependency org="javax.websocket" name="javax.websocket-api" rev="1.0"/>
+      <dependency org="jline" name="jline" rev="1.0"/>
+      <dependency org="joda-time" name="joda-time" rev="2.0"/>
+      <dependency org="junit" name="junit" rev="4.12"/>
+      <dependency org="net.sourceforge.dynamicreports" name="dynamicreports-core" rev="4.0.0"/>
+      <dependency org="netld-legacy" name="ftpserver" rev="1.0"/>
+      <dependency org="opensymphony" name="quartz-all" rev="1.6.3"/>
+      <dependency org="org.apache.commons" name="commons-compress" rev="1.9"/>
+      <dependency org="org.apache.commons" name="commons-math3" rev="3.4.1"/>
+      <dependency org="org.apache.derby" name="derby" rev="10.12.1.1"/>
+      <dependency org="org.apache.derby" name="derbyclient" rev="10.12.1.1"/>
+      <dependency org="org.apache.derby" name="derbynet" rev="10.12.1.1"/>
+      <dependency org="org.apache.derby" name="derbytools" rev="10.12.1.1"/>
+      <dependency org="org.apache.flex.blazeds" name="flex-messaging-common" rev="4.7.2"/>
+      <dependency org="org.apache.flex.blazeds" name="flex-messaging-core" rev="4.7.2"/>
+      <dependency org="org.apache.flex.blazeds" name="flex-messaging-proxy" rev="4.7.2"/>
+      <dependency org="org.apache.flex.blazeds" name="flex-messaging-remoting" rev="4.7.2"/>
+      <dependency org="org.apache.lucene" name="lucene-analyzers-common" rev="5.5.1"/>
+      <dependency org="org.apache.lucene" name="lucene-core" rev="5.5.1"/>
+      <dependency org="org.apache.lucene" name="lucene-highlighter" rev="5.5.1"/>
+      <dependency org="org.apache.lucene" name="lucene-queryparser" rev="5.5.1"/>
+      <dependency org="org.apache.poi" name="poi" rev="3.13"/>
+      <dependency org="org.apache.poi" name="poi-ooxml" rev="3.13"/>
+      <dependency org="org.apache.sshd" name="sshd-core" rev="0.11.0"/>
+      <dependency org="org.codehaus.woodstox" name="woodstox-core-asl" rev="4.4.1"/>
+      <dependency org="org.dhcp4java" name="dhcp4java" rev="1.0"/>
+      <dependency org="org.eclipse.birt.runtime" name="com.ibm.icu" rev="52.1.0.v201404241930"/>
+      <dependency org="org.eclipse.jetty" name="jetty-annotations" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-client" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-continuation" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-jaas" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-rewrite" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-security" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-server" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-util" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-util-ajax" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty.websocket" name="javax-websocket-server-impl" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty.websocket" name="websocket-api" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty.websocket" name="websocket-client" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.jetty.websocket" name="websocket-server" rev="9.3.9.v20160517"/>
+      <dependency org="org.eclipse.persistence" name="javax.persistence" rev="2.1.0"/>
+      <dependency org="org.graylog2" name="syslog4j" rev="0.9.55" transitive="false"/>
+      <dependency org="org.jvnet.hudson" name="org.suigeneris.jrcs.diff" rev="0.4.2"/>
+      <dependency org="org.kaazing" name="snmp4j" rev="1.11.3"/>
+      <dependency org="org.mortbay.jetty" name="jetty-blazeds" rev="8.0.4.v20111024" transitive="false"/>
+      <dependency org="org.mortbay.jetty" name="jetty-blazeds" rev="8.0.4.v20111024" transitive="false"/>
+      <dependency org="org.postgresql" name="postgresql" rev="9.4.1208"/>
+      <dependency org="org.sakaiproject" name="sakai-rwiki-diff" rev="10.3"/>
+      <dependency org="org.tinyradius" name="tinyradius" rev="1.0"/>
+      <dependency org="uk.nominet" name="dnsjnio" rev="1.0.3"/>
+      <dependency org="xerces" name="xercesImpl" rev="2.11.0"/>
+   </dependencies>
 </ivy-module>
