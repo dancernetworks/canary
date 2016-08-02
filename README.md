@@ -3,5 +3,5 @@
 A project for tracking canaries!
 
 ```
-find . -name "ivy.xml" -exec grep "<dependency" {} \; | sort | uniq
+find . -name "ivy.xml" -exec grep "<dependency" {} \; | tr -s \[:space:] | sort | uniq
 ```
