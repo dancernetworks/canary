@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="netld" default="ivy2pom" xmlns:ivy="antlib:org.apache.ivy.ant">
-
-   <target name="ivy2pom" >
-      <ivy:makepom ivyfile="${basedir}/ivy.xml" pomfile="${basedir}/pom.xml" conf="default,runtime" />
-   </target>
-</project>
