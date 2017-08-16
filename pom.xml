@@ -54,7 +54,6 @@
       <dynamic-reports.version>4.1.1</dynamic-reports.version>
       <ejb-api.version>3.2</ejb-api.version>
       <fast-classpath.version>2.0.21</fast-classpath.version>
-      <flex.version>4.7.2</flex.version>
       <fst.version>2.48</fst.version>
       <ftpserver-core.version>1.0.6</ftpserver-core.version>
       <funktionale.version>1.0.1</funktionale.version>
@@ -62,7 +61,7 @@
       <influx.version>2.5</influx.version>
       <io.version>2.5</io.version>
       <hikari.version>2.6.2</hikari.version>
-      <hollow.version>2.6.6</hollow.version>
+      <hollow.version>2.7.0</hollow.version>
       <httpcore.version>4.4.5</httpcore.version>
       <httpcore-nio.version>4.4.5</httpcore-nio.version>
       <jackson.version>2.8.8</jackson.version>
@@ -78,7 +77,7 @@
       <jsonrpc.version>1.4.6</jsonrpc.version>
       <junit.version>4.12</junit.version>
       <kerberos.version>2.0.0-M23</kerberos.version>
-      <kotlin.version>1.1.2</kotlin.version>
+      <kotlin.version>1.1.4</kotlin.version>
       <kryo.version>3.0.3</kryo.version>
       <logging.version>1.2</logging.version>
       <lucene.version>6.2.1</lucene.version>
@@ -87,7 +86,7 @@
       <netty.version>4.0.42.Final</netty.version>
       <nuprocess.version>1.1.1</nuprocess.version>
       <opencsv.version>2.4</opencsv.version>
-      <oshi-core.version>3.2</oshi-core.version>
+      <oshi-core.version>3.4.2</oshi-core.version>
       <poi.version>3.15</poi.version>
       <portlet.version>2.0</portlet.version>
       <postgresql.version>9.4.1212</postgresql.version>
@@ -130,7 +129,7 @@
          </exclusions>
       </dependency>
       <dependency>
-         <groupId>com.github.dblock</groupId>
+         <groupId>com.github.oshi</groupId>
          <artifactId>oshi-core</artifactId>
          <version>${oshi-core.version}</version>
       </dependency>
@@ -164,11 +163,11 @@
          <artifactId>appup</artifactId>
          <version>0.1.8</version>
       </dependency>
-      <dependency>
+      <!-- dependency>
           <groupId>com.netflix.hollow</groupId>
           <artifactId>hollow</artifactId>
           <version>${hollow.version}</version>
-      </dependency>
+      </dependency -->
       <dependency>
          <groupId>com.netflix.hollow</groupId>
          <artifactId>hollow-diff-ui</artifactId>
@@ -177,6 +176,10 @@
             <exclusion>
                <groupId>org.eclipse.jetty</groupId>
                <artifactId>*</artifactId>
+            </exclusion>
+            <exclusion>
+               <groupId>com.netflix.hollow</groupId>
+               <artifactId>hollow</artifactId>
             </exclusion>
          </exclusions>
       </dependency>
@@ -188,6 +191,10 @@
             <exclusion>
                <groupId>org.eclipse.jetty</groupId>
                <artifactId>*</artifactId>
+            </exclusion>
+            <exclusion>
+               <groupId>com.netflix.hollow</groupId>
+               <artifactId>hollow</artifactId>
             </exclusion>
          </exclusions>
       </dependency>
@@ -411,32 +418,6 @@
           </exclusions>
       </dependency>
       <dependency>
-          <groupId>org.apache.flex.blazeds</groupId>
-          <artifactId>flex-messaging-common</artifactId>
-          <version>${flex.version}</version>
-          <exclusions>
-             <exclusion>
-                <groupId>xml-apis</groupId>
-                <artifactId>xml-apis</artifactId>
-             </exclusion>
-          </exclusions>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.flex.blazeds</groupId>
-          <artifactId>flex-messaging-core</artifactId>
-          <version>${flex.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.flex.blazeds</groupId>
-          <artifactId>flex-messaging-proxy</artifactId>
-          <version>${flex.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.flex.blazeds</groupId>
-          <artifactId>flex-messaging-remoting</artifactId>
-          <version>${flex.version}</version>
-      </dependency>
-      <dependency>
           <groupId>org.apache.ftpserver</groupId>
           <artifactId>ftpserver-core</artifactId>
           <version>${ftpserver-core.version}</version>
@@ -649,21 +630,6 @@
          <groupId>com.zaxxer</groupId>
          <artifactId>snmp4j</artifactId>
          <version>${snmp4j.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.mortbay.jetty</groupId>
-          <artifactId>jetty-blazeds</artifactId>
-          <version>8.0.4.v20111024</version>
-          <exclusions>
-             <exclusion>
-                <groupId>com.adobe.flex</groupId>
-                <artifactId>flex-messaging-core</artifactId>
-             </exclusion>
-             <exclusion>
-                <groupId>com.adobe.flex</groupId>
-                <artifactId>flex-messaging-common</artifactId>
-             </exclusion>
-          </exclusions>
       </dependency>
       <dependency>
           <groupId>org.postgresql</groupId>
