@@ -6,31 +6,6 @@
    <artifactId>netld</artifactId>
    <version>17.0.0-SNAPSHOT</version>
 
-   <repositories>
-      <repository>
-         <id>spring-milestones</id>
-         <url>http://repo.spring.io/libs-milestone/</url>
-      </repository>
-
-      <repository>
-         <id>jaspersoft-third-party</id>
-         <url>http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/</url>
-      </repository>
-
-      <repository>
-         <!--
-          ! This repository is required for our custom build of the snmp4j library
-          ! and should be removed once the library is published to the maven central repository.
-          !-->
-         <id>oss-sonatype</id>
-         <name>oss-sonatype</name>
-         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-         <snapshots>
-            <enabled>true</enabled>
-         </snapshots>
-      </repository>
-   </repositories>
-
    <properties>
       <comment>
                   PLEASE KEEP IN...
@@ -40,63 +15,68 @@
       </comment>
 
       <antlr.version>2.7.7</antlr.version>
-      <apache-derby.version>10.12.1.1</apache-derby.version>
-      <apache-logging.version>2.8.1</apache-logging.version>
+      <apache-derby.version>10.13.1.1</apache-derby.version>
+      <apache-logging.version>2.8.2</apache-logging.version>
+      <appup.version>0.1.9</appup.version>
       <codec.version>1.10</codec.version>
-      <commons-compress.version>1.12</commons-compress.version>
-      <commons-lang3.version>3.4</commons-lang3.version>
+      <commons-compress.version>1.14</commons-compress.version>
+      <commons-lang3.version>3.6</commons-lang3.version>
       <commons-math.version>3.6.1</commons-math.version>
-      <commons-net.version>3.5</commons-net.version>
+      <commons-net.version>3.6</commons-net.version>
       <commons-pool.version>1.6</commons-pool.version>
+      <commons-text.version>1.1</commons-text.version>
       <cron4j.version>2.2.5</cron4j.version>
-      <dnsjava.version>2.1.7</dnsjava.version>
+      <dnsjava.version>2.1.8</dnsjava.version>
       <dnsjnio.version>1.0.3</dnsjnio.version>
       <dynamic-reports.version>4.1.1</dynamic-reports.version>
       <ejb-api.version>3.2</ejb-api.version>
-      <fast-classpath.version>2.0.21</fast-classpath.version>
-      <fst.version>2.48</fst.version>
-      <ftpserver-core.version>1.0.6</ftpserver-core.version>
+      <fast-classpath.version>2.4.5</fast-classpath.version>
+      <fst.version>2.52</fst.version>
+      <ftpserver-core.version>1.1.1</ftpserver-core.version>
       <funktionale.version>1.0.1</funktionale.version>
       <geronimo-jms.version>1.1.1</geronimo-jms.version>
-      <influx.version>2.5</influx.version>
+      <influx.version>2.7</influx.version>
       <io.version>2.5</io.version>
-      <hikari.version>2.6.2</hikari.version>
+      <hikari.version>2.6.3</hikari.version>
       <hollow.version>2.7.0</hollow.version>
-      <httpcore.version>4.4.5</httpcore.version>
-      <httpcore-nio.version>4.4.5</httpcore-nio.version>
-      <jackson.version>2.8.8</jackson.version>
+      <httpcore.version>4.4.6</httpcore.version>
+      <httpcore-nio.version>4.4.6</httpcore-nio.version>
+      <icu.version>56.1.0.v201601250100</icu.version>
+      <jackson.version>2.9.0</jackson.version>
       <jcifs.version>1.3.18.2</jcifs.version>
       <jctools-core.version>2.0.2</jctools-core.version>
       <jfreechart.version>1.0.13</jfreechart.version>
-      <jetty.version>9.3.13.v20161014</jetty.version>
+      <jetty.version>9.4.7.v20170914</jetty.version>
       <jline.version>1.0</jline.version>
-      <joda.version>2.9.4</joda.version>
-      <jna.version>4.2.2</jna.version>
+      <jmockit.version>1.34</jmockit.version>
+      <joda.version>2.9.9</joda.version>
+      <jna.version>4.4.0</jna.version>
       <jrcs.diff.version>0.4.2</jrcs.diff.version>
       <jsmiparser.version>0.14-SNAPSHOT</jsmiparser.version>
-      <jsonrpc.version>1.4.6</jsonrpc.version>
+      <jsonrpc.version>1.5.0</jsonrpc.version>
       <junit.version>4.12</junit.version>
       <kerberos.version>2.0.0-M23</kerberos.version>
-      <kotlin.version>1.1.4</kotlin.version>
-      <kryo.version>3.0.3</kryo.version>
+      <kotlin.version>1.1.4-3</kotlin.version>
+      <kryo.version>4.0.1</kryo.version>
       <logging.version>1.2</logging.version>
       <lucene.version>6.2.1</lucene.version>
-      <mail.version>1.5.6</mail.version>
-      <metrics.version>3.2.3</metrics.version>
-      <netty.version>4.0.42.Final</netty.version>
-      <nuprocess.version>1.1.1</nuprocess.version>
+      <mail.version>1.6.0</mail.version>
+      <metrics.version>3.2.4</metrics.version>
+      <netty.version>4.1.14.Final</netty.version>
+      <nuprocess.version>1.1.2</nuprocess.version>
       <opencsv.version>2.4</opencsv.version>
-      <oshi-core.version>3.4.2</oshi-core.version>
-      <poi.version>3.15</poi.version>
+      <oshi-core.version>3.4.3</oshi-core.version>
+      <poi.version>3.16</poi.version>
       <portlet.version>2.0</portlet.version>
-      <postgresql.version>9.4.1212</postgresql.version>
+      <postgresql.version>42.1.4</postgresql.version>
       <sakai.version>10.3</sakai.version>
-      <sansorm.version>2.4</sansorm.version>
-      <slf4j.version>1.7.21</slf4j.version>
-      <snmp4j.version>2.5.6-SNAPSHOT</snmp4j.version>
+      <sansorm.version>2.5</sansorm.version>
+      <slf4j.version>1.7.25</slf4j.version>
+      <snmp4j.version>2.5.6</snmp4j.version>
       <sshd.version>1.4.0</sshd.version>
-      <syslog4j.version>0.9.57</syslog4j.version>
+      <syslog4j.version>0.9.60</syslog4j.version>
       <transaction.version>1.2</transaction.version>
+      <uuid-generator.version>3.1.4</uuid-generator.version>
       <woodstox.version>4.4.1</woodstox.version>
       <xerces.version>2.11.0</xerces.version>
       <xmlbeans.version>2.6.0</xmlbeans.version>
@@ -159,15 +139,20 @@
          <version>${jackson.version}</version>
       </dependency>
       <dependency>
+         <groupId>com.fasterxml.uuid</groupId>
+         <artifactId>java-uuid-generator</artifactId>
+         <version>${uuid-generator.version}</version>
+      </dependency>
+      <dependency>
          <groupId>com.lbayer</groupId>
          <artifactId>appup</artifactId>
-         <version>0.1.8</version>
+         <version>${appup.version}</version>
       </dependency>
-      <!-- dependency>
+      <dependency>
           <groupId>com.netflix.hollow</groupId>
           <artifactId>hollow</artifactId>
           <version>${hollow.version}</version>
-      </dependency -->
+      </dependency>
       <dependency>
          <groupId>com.netflix.hollow</groupId>
          <artifactId>hollow-diff-ui</artifactId>
@@ -242,6 +227,11 @@
          <groupId>commons-pool</groupId>
          <artifactId>commons-pool</artifactId>
          <version>${commons-pool.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.apache.commons</groupId>
+         <artifactId>commons-text</artifactId>
+         <version>${commons-text.version}</version>
       </dependency>
       <dependency>
           <groupId>de.ruedigermoeller</groupId>
@@ -528,7 +518,7 @@
       <dependency>
          <groupId>org.eclipse.birt.runtime</groupId>
          <artifactId>com.ibm.icu</artifactId>
-         <version>52.1.0.v201404241930</version>
+         <version>${icu.version}</version>
       </dependency>
       <dependency>
          <groupId>org.eclipse.jetty</groupId>
@@ -602,6 +592,12 @@
          <version>${kotlin.version}</version>
       </dependency>
       <dependency>
+         <groupId>org.jmockit</groupId>
+         <artifactId>jmockit</artifactId>
+         <version>${jmockit.version}</version>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
          <groupId>org.jvnet.hudson</groupId>
          <artifactId>org.suigeneris.jrcs.diff</artifactId>
          <version>${jrcs.diff.version}</version>
@@ -627,9 +623,15 @@
          <version>${antlr.version}</version>
       </dependency>
       <dependency>
-         <groupId>com.zaxxer</groupId>
+         <groupId>org.snmp4j</groupId>
          <artifactId>snmp4j</artifactId>
          <version>${snmp4j.version}</version>
+         <exclusions>
+           <exclusion>
+             <groupId>log4j</groupId>
+             <artifactId>log4j</artifactId>
+           </exclusion>
+         </exclusions>
       </dependency>
       <dependency>
           <groupId>org.postgresql</groupId>
