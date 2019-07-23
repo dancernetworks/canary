@@ -42,7 +42,7 @@
       <httpcore.version>4.4.8</httpcore.version>
       <httpcore-nio.version>4.4.6</httpcore-nio.version>
       <icu.version>56.1.0.v201601250100</icu.version>
-      <influx.version>2.9</influx.version>
+      <influx.version>2.15</influx.version>
       <influx4j.version>1.14</influx4j.version>
       <io.version>2.5</io.version>
       <jackson.version>2.9.1</jackson.version>
