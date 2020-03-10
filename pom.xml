@@ -71,7 +71,7 @@
       <lucene.version>7.1.0</lucene.version>
       <mail.version>1.6.0</mail.version>
       <metrics.version>3.2.5</metrics.version>
-      <netty.version>4.1.16.Final</netty.version>
+      <netty.version>4.1.44.Final</netty.version>
       <nuprocess.version>1.2.4</nuprocess.version>
       <opencsv.version>2.4</opencsv.version>
       <oshi-core.version>3.4.4</oshi-core.version>
