@@ -17,7 +17,7 @@
       <apache-derby.version>10.13.1.1</apache-derby.version>
       <apache-logging.version>2.10.0</apache-logging.version>
       <appup.version>0.1.10</appup.version>
-      <codec.version>1.10</codec.version>
+      <codec.version>1.13</codec.version>
       <commons-collections.version>3.2.2</commons-collections.version>
       <commons-compress.version>1.14</commons-compress.version>
       <commons-lang3.version>3.6</commons-lang3.version>
@@ -75,7 +75,7 @@
       <nuprocess.version>1.2.4</nuprocess.version>
       <opencsv.version>2.4</opencsv.version>
       <oshi-core.version>3.4.4</oshi-core.version>
-      <poi.version>3.17</poi.version>
+      <poi.version>4.1.1</poi.version>
       <portlet.version>3.0.0</portlet.version>
       <postgresql.version>42.2.0</postgresql.version>
       <sakai.version>11.4</sakai.version>
