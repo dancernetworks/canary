@@ -75,7 +75,7 @@
       <nuprocess.version>1.2.4</nuprocess.version>
       <opencsv.version>2.4</opencsv.version>
       <oshi-core.version>3.4.4</oshi-core.version>
-      <poi.version>3.17</poi.version>
+      <poi.version>4.1.1</poi.version>
       <portlet.version>3.0.0</portlet.version>
       <postgresql.version>42.2.0</postgresql.version>
       <sakai.version>11.4</sakai.version>
