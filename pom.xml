@@ -29,7 +29,7 @@
       <cron4j.version>2.2.5</cron4j.version>
       <dnsjava.version>2.1.8</dnsjava.version>
       <dnsjnio.version>1.0.3</dnsjnio.version>
-      <dynamic-reports.version>4.1.1</dynamic-reports.version>
+      <dynamic-reports.version>6.11.0</dynamic-reports.version>
       <ejb-api.version>3.2</ejb-api.version>
       <fast-classpath.version>2.7.4</fast-classpath.version>
       <fastutil.version>8.1.0</fastutil.version>
