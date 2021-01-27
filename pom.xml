@@ -58,7 +58,7 @@
       <jna.version>4.5.1</jna.version>
       <jnr-posix.version>3.0.41</jnr-posix.version>
       <jrcs.diff.version>0.4.2</jrcs.diff.version>
-      <jsonrpc.version>1.5.2</jsonrpc.version>
+      <jsonrpc.version>1.6</jsonrpc.version>
       <junit.version>4.12</junit.version>
       <junit-toolbox.version>2.4</junit-toolbox.version>
       <jws.version>4.0-b33</jws.version>
