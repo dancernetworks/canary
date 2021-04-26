@@ -44,7 +44,7 @@
       <icu.version>56.1.0.v201601250100</icu.version>
       <influx.version>2.9</influx.version>
       <influx4j.version>1.14</influx4j.version>
-      <io.version>2.5</io.version>
+      <io.version>2.7</io.version>
       <jackson.version>2.9.1</jackson.version>
       <javacc.version>7.0.3</javacc.version>
       <jaxb.version>2.3.0</jaxb.version>
