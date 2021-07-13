@@ -19,7 +19,7 @@
       <appup.version>0.1.10</appup.version>
       <codec.version>1.10</codec.version>
       <commons-collections.version>3.2.2</commons-collections.version>
-      <commons-compress.version>1.14</commons-compress.version>
+      <commons-compress.version>1.21</commons-compress.version>
       <commons-lang3.version>3.6</commons-lang3.version>
       <commons-math.version>3.6.1</commons-math.version>
       <commons-net.version>3.6</commons-net.version>
@@ -82,7 +82,7 @@
       <sansorm.version>3.7</sansorm.version>
       <slf4j.version>1.8.0-beta0</slf4j.version>
       <snmp4j.version>2.5.8</snmp4j.version>
-      <sshd.version>1.6.0</sshd.version>
+      <sshd.version>2.7.0</sshd.version>
       <sshd-eddsa>0.3.0</sshd-eddsa>
       <syslog4j.version>0.9.60</syslog4j.version>
       <transaction.version>1.2</transaction.version>
