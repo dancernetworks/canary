@@ -15,7 +15,7 @@
       </comment>
 
       <apache-derby.version>10.13.1.1</apache-derby.version>
-      <apache-logging.version>2.10.0</apache-logging.version>
+      <apache-logging.version>2.16.0</apache-logging.version>
       <appup.version>0.1.10</appup.version>
       <codec.version>1.10</codec.version>
       <commons-collections.version>3.2.2</commons-collections.version>
