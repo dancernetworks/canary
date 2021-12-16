@@ -34,7 +34,7 @@
       <fast-classpath.version>2.7.4</fast-classpath.version>
       <fastutil.version>8.1.0</fastutil.version>
       <fst.version>2.54</fst.version>
-      <ftpserver-core.version>1.1.1</ftpserver-core.version>
+      <ftpserver-core.version>1.1.2</ftpserver-core.version>
       <funktionale.version>1.0.1</funktionale.version>
       <geronimo-jms.version>1.1.1</geronimo-jms.version>
       <hikari.version>2.7.2</hikari.version>
