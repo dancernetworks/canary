@@ -88,7 +88,7 @@
       <transaction.version>1.2</transaction.version>
       <uuid-generator.version>3.1.4</uuid-generator.version>
       <woodstox.version>4.4.1</woodstox.version>
-      <xerces.version>2.11.0</xerces.version>
+      <xerces.version>2.12.2</xerces.version>
       <xmlbeans.version>2.6.0</xmlbeans.version>
       <xmlrpc.version>3.1.3</xmlrpc.version>
       <xodus.version>1.0.6</xodus.version>
