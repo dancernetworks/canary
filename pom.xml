@@ -45,7 +45,7 @@
       <influx.version>2.9</influx.version>
       <influx4j.version>1.14</influx4j.version>
       <io.version>2.5</io.version>
-      <jackson.version>2.9.1</jackson.version>
+      <jackson.version>2.13.2</jackson.version>
       <javacc.version>7.0.3</javacc.version>
       <jaxb.version>2.3.0</jaxb.version>
       <jcifs.version>1.3.18.3</jcifs.version>
