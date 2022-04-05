@@ -78,7 +78,7 @@
       <poi.version>3.17</poi.version>
       <portlet.version>3.0.0</portlet.version>
       <postgresql.version>42.2.0</postgresql.version>
-      <sakai.version>11.4</sakai.version>
+      <sakai.version>12.0</sakai.version>
       <sansorm.version>3.7</sansorm.version>
       <slf4j.version>1.8.0-beta0</slf4j.version>
       <snmp4j.version>2.5.8</snmp4j.version>
