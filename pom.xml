@@ -63,7 +63,7 @@
       <junit-toolbox.version>2.4</junit-toolbox.version>
       <jws.version>4.0-b33</jws.version>
       <kerberos.version>2.0.0-M23</kerberos.version>
-      <kotlin.version>1.2.71</kotlin.version>
+      <kotlin.version>1.6.0</kotlin.version>
       <kotlinx.html.version>0.6.11</kotlinx.html.version>
       <kryo.version>4.0.1</kryo.version>
       <kuill.version>1.1</kuill.version>
@@ -91,7 +91,7 @@
       <xerces.version>2.11.0</xerces.version>
       <xmlbeans.version>2.6.0</xmlbeans.version>
       <xmlrpc.version>3.1.3</xmlrpc.version>
-      <xodus.version>1.0.6</xodus.version>
+      <xodus.version>2.0.0</xodus.version>
    </properties>
 
    <description>
