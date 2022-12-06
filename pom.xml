@@ -22,7 +22,7 @@
       <commons-compress.version>1.14</commons-compress.version>
       <commons-lang3.version>3.6</commons-lang3.version>
       <commons-math.version>3.6.1</commons-math.version>
-      <commons-net.version>3.6</commons-net.version>
+      <commons-net.version>3.9.0</commons-net.version>
       <commons-pool.version>1.6</commons-pool.version>
       <commons-text.version>1.1</commons-text.version>
       <cqengine>2.12.4</cqengine>
