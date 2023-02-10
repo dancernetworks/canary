@@ -38,7 +38,7 @@
       <funktionale.version>1.0.1</funktionale.version>
       <geronimo-jms.version>1.1.1</geronimo-jms.version>
       <hikari.version>2.7.2</hikari.version>
-      <hollow.version>2.16.6</hollow.version>
+      <hollow.version>7.2.0</hollow.version>
       <httpcore.version>4.4.8</httpcore.version>
       <httpcore-nio.version>4.4.6</httpcore-nio.version>
       <icu.version>56.1.0.v201601250100</icu.version>
