@@ -82,7 +82,7 @@
       <sansorm.version>3.7</sansorm.version>
       <slf4j.version>1.8.0-beta0</slf4j.version>
       <snmp4j.version>2.5.8</snmp4j.version>
-      <sshd.version>1.6.0</sshd.version>
+      <sshd.version>2.12.0</sshd.version>
       <sshd-eddsa>0.3.0</sshd-eddsa>
       <syslog4j.version>0.9.60</syslog4j.version>
       <transaction.version>1.2</transaction.version>
